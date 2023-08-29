@@ -34,10 +34,9 @@
 ![image](https://file.notion.so/f/s/b1f81bed-4a33-426d-8f3c-85a73c8aa7f9/Untitled.png?id=3b1e2af4-ea4b-4f7a-ba89-b32098c778d0&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693324800000&signature=XY71KiivZQHGlN8Muvvvrn_yvKrbZ7PYf68mO5zJyf8&downloadName=Untitled.png)
 
 ## 6. 데이터 라벨링
-<h3>[YOLOv5] RoboFlow 웹사이트 이용</h3>
-<div>
-![image](https://file.notion.so/f/s/688803c3-1d08-4d3d-bfe5-efdc8f1dc474/Untitled.png?id=595984bf-ba41-45d1-82b4-a89dc1971708&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693368000000&signature=xlninWGcH0tZXGW0RYZxQhQO6W4kkkfFFX4XuQB6bbc&downloadName=Untitled.png)
-</div>
+<h3>YOLOv5 RoboFlow 웹사이트 이용</h3>
+![image](https://file.notion.so/f/s/b1f81bed-4a33-426d-8f3c-85a73c8aa7f9/Untitled.png?id=3b1e2af4-ea4b-4f7a-ba89-b32098c778d0&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693324800000&signature=XY71KiivZQHGlN8Muvvvrn_yvKrbZ7PYf68mO5zJyf8&downloadName=Untitled.png)
+
 ## 7. REST API 명세 
 ### Spring Boot
 | ID | Method | URI | Params | Return | Description |
