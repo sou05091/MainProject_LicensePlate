@@ -33,8 +33,9 @@
 ## 5. 서비스 아키텍처
 ![image](https://file.notion.so/f/s/b1f81bed-4a33-426d-8f3c-85a73c8aa7f9/Untitled.png?id=3b1e2af4-ea4b-4f7a-ba89-b32098c778d0&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693324800000&signature=XY71KiivZQHGlN8Muvvvrn_yvKrbZ7PYf68mO5zJyf8&downloadName=Untitled.png)
 
-## 6. 화면 구성
-
+## 6. 데이터 라벨링
+- [YOLOv5] RoboFlow 웹사이트 이용
+![image](https://www.notion.so/RoboFlow-YOLOv5-f4babf5a57d041d9a426e28ed86ecc5d?pvs=4#595984bfba4145d182b4a89dc1971708)
 ## 7. REST API 명세 
 ### Spring Boot
 | ID | Method | URI | Params | Return | Description |
