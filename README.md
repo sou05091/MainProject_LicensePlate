@@ -18,23 +18,6 @@
 <div>
   <img src="https://img.shields.io/badge/vscode 1.18.1-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
 </div>
-<h3>Config</h3>
-<div>
-   <img src="https://img.shields.io/badge/npm 9.5.1-CB3837?style=for-the-badge&logo=npm&logoColor=white">
-   <img src="https://img.shields.io/badge/maven 3.9.3-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white">
-</div>
-  <h3>Development</h3>
-<div>
-    <img src="https://img.shields.io/badge/node.js 18.16.0-339933?style=for-the-badge&logo=Node.js&logoColor=white">
-  <img src="https://img.shields.io/badge/react 18.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white"> 
-  <img src="https://img.shields.io/badge/mui 5.14.1-007FFF?style=for-the-badge&logo=mui&logoColor=white" />
-</div>
-<div>
-  <img src="https://img.shields.io/badge/java 17-007396?style=for-the-badge&logo=java&logoColor=white"> 
-  <img src="https://img.shields.io/badge/springboot 3.1.2-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> 
-  <img src="https://img.shields.io/badge/springsecurity 6.1.1-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"> 
-  <img src="https://img.shields.io/badge/mysql 8.0.32-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> 
-</div>
 <h3>Communication</h3>
 <div>
   <a href="https://shrub-snap-550.notion.site/6e3827cac0a846c393106e0dfec6ac6e?v=c805bf85a004454695cc77a7968262b5&pvs=4"><img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"> </a>
@@ -42,13 +25,10 @@
 </div>
 
 ## 4. 주요 기능 
-- [ ] 회원가입/로그인
-- [ ] 출입 차량 실시간 기록 기능  
-- [ ] 날짜별 출입 기록 조회 기능
-- [ ] 차량 번호별 출입 기록 조회 기능
-- [ ] 기록 수정 기능
-- [ ] 기록 삭제 기능
-- [ ] 출입 기록 수정/삭제 히스토리 기능 
+- [ ] YOLOv5 활용 차량 번호판 객체 인식
+- [ ] 출입 차량 번호판 이미지 추출
+- [ ] 차량 번호판 이미지 분류
+- [ ] 새로운 차량에 대해서 이미지 저장 후 학습 진행
 
 ## 5. 서비스 아키텍처
 ![image](https://file.notion.so/f/s/b1f81bed-4a33-426d-8f3c-85a73c8aa7f9/Untitled.png?id=3b1e2af4-ea4b-4f7a-ba89-b32098c778d0&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693324800000&signature=XY71KiivZQHGlN8Muvvvrn_yvKrbZ7PYf68mO5zJyf8&downloadName=Untitled.png)
