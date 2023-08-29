@@ -34,7 +34,7 @@
 ![image](https://file.notion.so/f/s/b1f81bed-4a33-426d-8f3c-85a73c8aa7f9/Untitled.png?id=3b1e2af4-ea4b-4f7a-ba89-b32098c778d0&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693324800000&signature=XY71KiivZQHGlN8Muvvvrn_yvKrbZ7PYf68mO5zJyf8&downloadName=Untitled.png)
 
 ## 6. 데이터 라벨링
-### YOLOv5 라벨링 (RoboFlow 사용)
+### YOLOv5 라벨링 RoboFlow 사용 (최호진 라벨링 진행)
 ![image](https://file.notion.so/f/s/688803c3-1d08-4d3d-bfe5-efdc8f1dc474/Untitled.png?id=595984bf-ba41-45d1-82b4-a89dc1971708&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693368000000&signature=xlninWGcH0tZXGW0RYZxQhQO6W4kkkfFFX4XuQB6bbc&downloadName=Untitled.png)
 ### 라벨링 진행 (예시)
 ![image](https://file.notion.so/f/s/c4d410c2-f559-4766-a5be-a4255a37a570/Untitled.png?id=027fa699-5187-41f5-9c9d-c2a108f041cd&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693368000000&signature=70Kcv1dptcmknSm6t7LMiwOx8jv5hDRmMo5Qr1TnBLs&downloadName=Untitled.png)
