@@ -33,24 +33,24 @@
 
 ## 6. 데이터 라벨링
 ### YOLOv5 라벨링 RoboFlow 사용 (최호진 라벨링 진행)
-![image](https://file.notion.so/f/s/688803c3-1d08-4d3d-bfe5-efdc8f1dc474/Untitled.png?id=595984bf-ba41-45d1-82b4-a89dc1971708&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693368000000&signature=xlninWGcH0tZXGW0RYZxQhQO6W4kkkfFFX4XuQB6bbc&downloadName=Untitled.png)
+![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/RoboFlow%20%EC%82%AC%EC%9A%A9.png)
 ### 라벨링 진행 (예시)
-![image](https://file.notion.so/f/s/c4d410c2-f559-4766-a5be-a4255a37a570/Untitled.png?id=027fa699-5187-41f5-9c9d-c2a108f041cd&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693368000000&signature=70Kcv1dptcmknSm6t7LMiwOx8jv5hDRmMo5Qr1TnBLs&downloadName=Untitled.png)
+![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/Labeling%20%EC%A7%84%ED%96%89.png)
 ### txt파일 Export
-![image](https://file.notion.so/f/s/d2f1ae8d-d0eb-418e-88f0-fba8376828b2/Untitled.png?id=a235e696-a29e-4590-beab-002b2aa32b1b&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693368000000&signature=pjynem2on4YFZUG7wU9lUcdoAZTdSrqaJXV3hrfCOsU&downloadName=Untitled.png)
+![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/Export.png)
 
 ## 7. YOLOv5 학습 진행
 ### Colab에서 모델 학습 진행 (라벨링 데이터 1000장 사용)
-![image](https://file.notion.so/f/s/a9341ecf-08fe-42cf-bf31-586a6d2b165a/Untitled.png?id=114dd6fd-3e1e-47e2-ab27-efbc4484d56c&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693368000000&signature=xuYyhdqo_lsTWbmSixpLqAm8NN_c4jxkxq4Ulezx0S4&downloadName=Untitled.png)
+![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/model%20%ED%95%99%EC%8A%B5.png)
 
 ## 8. Test 웹 서비스
 ### Flask 사용
-![image](https://file.notion.so/f/s/4c99d8d0-751e-4f8f-9e13-9d38886b0b6e/Untitled.png?id=10d2a120-7551-4b64-8c9c-8a31e10650c2&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693368000000&signature=WVEmbJ6XB7y0PLM3I5rKmxHDFDhGJkO6NBpfjs3ZNb8&downloadName=Untitled.png)
+![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/Flask%20%EC%82%AC%EC%9A%A9.png)
 ## 9. YOLOv5 모델 결과
 ### 전체 이미지 객체 인식
-![image](https://file.notion.so/f/s/aba1a8a1-89cd-4f4a-9496-170dee735e40/2023-08-28_14-12-27-288193.png?id=76bdd566-fff5-46c7-90ca-2733cd40e49c&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693368000000&signature=xqh_kbKJektu63EnCZAfSYZR6kIoPuKX8fh4fcqSouE&downloadName=2023-08-28_14-12-27-288193.png)
+![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/result.png)
 ### 번호판 객체 이미지 저장
-![image](https://file.notion.so/f/s/018967e5-34c8-4521-912a-4fc5f2e75d35/2023-08-28_15-19-18-341637.jpg?id=3be1f49a-619a-4fb1-93e2-80cdb37d8371&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693368000000&signature=am1MqPQn92S2xa5B1wyCJgWHmQS317GXcrL8us7G7tk&downloadName=2023-08-28_15-19-18-341637.jpg)
+![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/result1.jpg)
 
 ## 10. 이미지 모델 분류 (진행중)
 ### 데이터 전처리
