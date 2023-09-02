@@ -52,10 +52,12 @@
 ### 번호판 객체 이미지 저장
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/result1.jpg)
 
-## 10. 이미지 모델 분류 (진행중)
+## 10. 이미지 분류 자동화 프로그램 제작
+
+## 11. 이미지 모델 분류 (진행중)
 ### 데이터 전처리
-- 이미지 분류 진행 (14개 class사용, 100개 class 추가 예정)
-- 데이터 분류 수작업
+- 분류된 이미지 판단
+- 데이터 판단 수작업
 
 ![image](https://file.notion.so/f/s/359cf42e-5dbe-420b-9972-b1e6070512a3/Untitled.png?id=0e731c39-8eae-4b3f-aae9-60f6db5be22c&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693389600000&signature=3BsDJ4SB6B0NtY03t5Zkw9ZX00cO9T5x3cHaK666qlM&downloadName=Untitled.png)
 ### 모델 제작
