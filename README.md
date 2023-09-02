@@ -3,9 +3,8 @@
 ## 1. 프로젝트 소개 
 - 개요: AI 모델을 통해 출입하는 차량의 번호판을 판별하고, 그 기록을 관리하는 웹서비스
 - 활용 데이터 : 현장 CCTV 사진, 번호판 사진
-- 기간: 2023. 08.21 ~ 
-- [Go to see our service](https://jaemin1130.github.io/MiniProject_MealNote/)
-
+- 기간: 2023. 08.21 ~
+  
 ## 2. 팀원 
 |<img width="200" alt="image" src="https://avatars.githubusercontent.com/u/129818813?v=4">|<img width="200" alt="image" src="https://avatars.githubusercontent.com/u/98063854?v=4">|<img width="200" alt="image" src="https://avatars.githubusercontent.com/u/70638717?v=4">|<img width="200" alt="image" src="https://avatars.githubusercontent.com/u/86204430?v=4">|
 | :---------------------------------: | :-----------------------------------:| :---------------------------------: | :-----------------------------------:|
