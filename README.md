@@ -59,14 +59,14 @@
 - 분류된 이미지 판단
 - 데이터 판단 수작업
 
-![image](https://file.notion.so/f/s/359cf42e-5dbe-420b-9972-b1e6070512a3/Untitled.png?id=0e731c39-8eae-4b3f-aae9-60f6db5be22c&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693389600000&signature=3BsDJ4SB6B0NtY03t5Zkw9ZX00cO9T5x3cHaK666qlM&downloadName=Untitled.png)
+![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/classfication/folder.png)
 ### 모델 제작
 - VGG모델 사용 (다른 모델들도 사용 예정)
 - 상세 코드는 GitHub 참조
 ### 모델 결과 (accuracy 더 올려야 함)
-![image](https://file.notion.so/f/s/dd303162-fa56-4c99-9042-f7fbd40a1cbc/Untitled.png?id=d7ccd0d2-1b87-4882-80bc-3e4649a0d350&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693389600000&signature=bCjvAEU-oYlKEmG_v7u_Bd-KMP4quM5UCIvRfEFMaVc&downloadName=Untitled.png)
+![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/classfication/result.png)
 
-![image](https://file.notion.so/f/s/3e778283-1048-48ef-8d7d-f7351ef20b67/Untitled.png?id=08a4833e-846b-4019-ae6c-eabc8ef534bf&table=block&spaceId=305e395a-5955-44d6-bb5f-c488ffd0100f&expirationTimestamp=1693389600000&signature=sK4eaXzguECCKMxOSy6fM8usPv5-o0Uoyet13SyHAxI&downloadName=Untitled.png)
+![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/classfication/result1.png)
 
 ## 개발 일지 
 <a href="https://shrub-snap-550.notion.site/CRUD-566be659b7bf4693a6515f408cf2f1d9?pvs=4">개발 일지 보러 가기  <img width="23" src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg"> </a>****
