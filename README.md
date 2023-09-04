@@ -53,7 +53,9 @@
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/result1.jpg)
 
 ## 10. 이미지 분류 자동화 프로그램 제작
-
+- 자동 이미지 저장 프로그램 제작
+- 폴더 분류 부터 YOLOv5를 이용한 번호판 객체인식 및 번호판 이미지 저장기능
+![image]
 ## 11. 이미지 모델 분류 (진행중)
 ### 데이터 전처리
 - 분류된 이미지 판단
