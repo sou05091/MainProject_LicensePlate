@@ -51,9 +51,7 @@
 
 ## 9. 이미지 분류 자동화 프로그램 제작
 - 자동 이미지 저장 프로그램 제작
-- 폴더 분류 부터 YOLOv5를 이용한 번호판 객체인식 및 번호판 이미지 저장기능
-
-![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/classfication/folder.png)
+- 폴더 분류 부터 YOLOv5를 이용한 번호판 객체인식 및 번호판 이미지 저장기능 (Auto_Img_Save.py 참고)
 
 ## 10. 이미지 분류 데이터 전처리
 ### 데이터 전처리
@@ -76,8 +74,16 @@
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/classfication/result1.png)
 
 ## 12. Flask 제작
-### 5가지 AI모델 정리
-![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/Flask%20%EC%82%AC%EC%9A%A9.png)
+### AI모델 정리
+- 총 5가지 모델 사용 (YOLOv5, ESRGAN, VGG, EasyOCR, RoboFlowOCR)
+- 3가지 모델(VGG, EasyOCR, RoboFlowOCR) return값 반환 (Json 형식)
 
+### 모델 작업 순서
+- YOLOv5 번호판 객체인식 및 저장
+- ESRGAN 이미지 선명도 조절 및 흑백사진으로 변환
+- VGG 이미지 분류 판단
+- EasyOCR, RoboFlowOCR 사용
+
+![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/Flask%20%EC%82%AC%EC%9A%A9.png)
 ## 개발 일지 
 <a href="https://shrub-snap-550.notion.site/CRUD-566be659b7bf4693a6515f408cf2f1d9?pvs=4">개발 일지 보러 가기  <img width="23" src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg"> </a>****
