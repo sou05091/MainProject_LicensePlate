@@ -43,19 +43,24 @@
 ### Colab에서 모델 학습 진행 (라벨링 데이터 1000장 사용)
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/model%20%ED%95%99%EC%8A%B5.png)
 
-## 8. Test 웹 서비스
-### Flask 사용
-![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/Flask%20%EC%82%AC%EC%9A%A9.png)
-## 9. YOLOv5 모델 결과
+## 8. YOLOv5 모델 결과
 ### 전체 이미지 객체 인식
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/result.png)
 ### 번호판 객체 이미지 저장
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/result1.jpg)
 
-## 10. 이미지 분류 자동화 프로그램 제작
+## 9. 이미지 분류 자동화 프로그램 제작
 - 자동 이미지 저장 프로그램 제작
 - 폴더 분류 부터 YOLOv5를 이용한 번호판 객체인식 및 번호판 이미지 저장기능
-![image]
+
+![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/classfication/folder.png)
+
+## 10. 이미지 분류 데이터 전처리
+### 데이터 전처리
+- 이미지 분류 진행 (64개 class사용)
+- 데이터 이미지 화질 개선 및 흑백 이미지로 변경
+- class간 데이터 불균형 발생 (이미지 수가 작은 class에 대해 데이터 증강 적용)
+
 ## 11. 이미지 모델 분류 (진행중)
 ### 데이터 전처리
 - 분류된 이미지 판단
@@ -69,6 +74,10 @@
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/classfication/result.png)
 
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/classfication/result1.png)
+
+## 12. Flask 제작
+### 5가지 AI모델 정리
+![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/Flask%20%EC%82%AC%EC%9A%A9.png)
 
 ## 개발 일지 
 <a href="https://shrub-snap-550.notion.site/CRUD-566be659b7bf4693a6515f408cf2f1d9?pvs=4">개발 일지 보러 가기  <img width="23" src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg"> </a>****
