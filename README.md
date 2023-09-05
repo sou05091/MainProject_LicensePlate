@@ -57,13 +57,11 @@
 ### 데이터 전처리
 - 이미지 분류 진행 (7월달에 출입한 모든 차량, 64개 class사용)
 - class간 데이터 불균형 발생 (이미지 수가 작은 class에 대해 데이터 증강 적용)
-
-## 11. 이미지 모델 분류 (진행중)
-### 데이터 전처리
-- 분류된 이미지 판단
-- 데이터 판단 수작업
+- 분류된 이미지 번호판 판단
+- 이미지 화질 판단 수작업
 
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/classfication/folder.png)
+## 11. 이미지 모델 분류 (진행중)
 ### 모델 제작
 - VGG16 사용
 - 상세 코드는 GitHub 참조
