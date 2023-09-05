@@ -68,7 +68,7 @@
 ### 모델 제작
 - VGG모델 사용 (다른 모델들도 사용 예정)
 - 상세 코드는 GitHub 참조
-### 모델 결과 (accuracy 더 올려야 함)
+### 모델 결과
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/classfication/result.png)
 
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/classfication/result1.png)
