@@ -66,7 +66,7 @@
 
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/classfication/folder.png)
 ### 모델 제작
-- VGG모델 사용 (다른 모델들도 사용 예정)
+- VGG16 사용
 - 상세 코드는 GitHub 참조
 ### 모델 결과
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/classfication/result.png)
@@ -76,7 +76,7 @@
 ## 12. Flask 제작
 ### AI모델 정리
 - 총 5가지 모델 사용 (YOLOv5, ESRGAN, VGG, EasyOCR, RoboFlowOCR)
-- 3가지 모델(VGG, EasyOCR, RoboFlowOCR) return값 반환 (Json 형식)
+- 3가지 모델(VGG16, EasyOCR, RoboFlowOCR) return값 반환 (Json 형식)
 
 ### 모델 작업 순서
 - YOLOv5 번호판 객체인식 및 저장
