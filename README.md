@@ -1,5 +1,7 @@
 # 차량 번호판 인식 AI 모델 개발, 차량 출입 관리 웹 서비스 개발하기
 
+#### <a href="https://sou05091.github.io/MinBeom/pdf/pdf.html"> ※ 최종 결과 보고서 보러가기 ※
+
 ## 1. 프로젝트 소개 
 - 개요: AI 모델을 통해 출입하는 차량의 번호판을 판별하고, 그 기록을 관리하는 웹서비스
 - 활용 데이터 : 현장 CCTV 사진, 번호판 사진
@@ -90,8 +92,6 @@
 - YOLOv5로 번호판의 번호예측
 - EasyOCR, RoboflowOCR 기능을 추가적으로 구현
 - 3가지 모델을 앙상블기법으로 결과 추론
-
-<a href="https://sou05091.github.io/MinBeom/pdf/pdf.html">모델 결과 보고서 보러가기
 
 ## 13. Flask 제작
 ### AI모델 정리
