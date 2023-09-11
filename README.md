@@ -59,7 +59,7 @@
 - 이미지 화질 판단 수작업
 
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/classfication/folder.png)
-## 11. 이미지 모델 분류 (진행중)
+## 11. 이미지 모델 분류 (사용 안함)
 ### 모델 제작
 - VGG16 사용
 - 상세 코드는 GitHub 참조
@@ -68,16 +68,27 @@
 
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/classfication/result1.png)
 
-## 12. Flask 제작
+#### 모델 사용 안하는 이유
+- 새로운 차량이 있을시 새롭게 학습해야함
+- 이미지 수가 적어 Overfiting의 경향이 보임
+
+## 12. ESRGAN, YOLOv5
+- ESRGAN을 활용하여 이미지 화질 개선
+- YOLOv5로 번호판의 번호예측
+- EasyOCR, RoboflowOCR 기능을 추가적으로 구현
+- 3가지 모델을 앙상블기법으로 결과 추론
+
+<a href="https://sou05091.github.io/MinBeom/pdf/pdf.html">모델 결과 보고서 보러가기
+
+## 13. Flask 제작
 ### AI모델 정리
-- 총 5가지 모델 사용 (YOLOv5, ESRGAN, VGG, EasyOCR, RoboFlowOCR)
-- 3가지 모델(VGG16, EasyOCR, RoboFlowOCR) return값 반환 (Json 형식)
+- 총 5가지 모델 사용 (YOLOv5, ESRGAN, YOLOv5, EasyOCR, RoboFlowOCR)
+- 3가지 모델(YOLOv5, EasyOCR, RoboFlowOCR) return값 반환 (Json 형식)
 
 ### 모델 작업 순서
 - YOLOv5 번호판 객체인식 및 저장
 - ESRGAN 이미지 선명도 조절 및 흑백사진으로 변환
-- VGG 이미지 분류 판단
-- EasyOCR, RoboFlowOCR 사용
+- EasyOCR, RoboFlowOCR, YOLOv5로 번호 예측
 
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/Flask%20%EC%82%AC%EC%9A%A9.png)
 ## 개발 일지 
