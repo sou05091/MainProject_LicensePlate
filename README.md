@@ -34,8 +34,6 @@
 ## 6. 데이터 라벨링
 ### YOLOv5 라벨링 RoboFlow 사용 (최호진 라벨링 진행)
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/RoboFlow%20%EC%82%AC%EC%9A%A9.png)
-### 라벨링 진행 (예시)
-![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/Labeling%20%EC%A7%84%ED%96%89.png)
 ### txt파일 Export
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/Export.png)
 
