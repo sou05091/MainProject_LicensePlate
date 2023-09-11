@@ -16,6 +16,7 @@ import model3_easy_ocr as ocr
 import model4_roboflow_license_number_extractor as robo
 import model1_img_classfication as vgg
 import model_YOLOv5 as yolo
+import model5_num_classification_YOLO as ncy
 
 #app = Flask(__name__)
 app = Flask(__name__, static_url_path='/static')
@@ -63,19 +64,22 @@ def process_all():
         esrgan.model_result(file_path_name, after_path)
 
         # Step 3: Number Result 1 (VGG)
-        vgg_result = vgg.model_result(file_path_name)
+        #vgg_result = vgg.model_result(file_path_name)
 
         # Step 4: Number Result 2 (OCR)
         ocr_result = ocr.model_result(after_path)
 
         # Step 5: Number Result 3 (License Number Extraction)
         robo_result = robo.model_result(after_path)
-
+        
+        # Step 6: Number Result 4 (YOLOv5)
+        yolo_result = ncy.load_yolo(after_path)
+        
         return jsonify({
             #"super_resolution_image": super_res_img.tostring(),
-            "vgg_result": vgg_result,
             "ocr_result": ocr_result,
-            "robo_result": robo_result
+            "robo_result": robo_result,
+            "YOLOv5_result": yolo_result
         })
         #return redirect()
     return render_template("index.html")
