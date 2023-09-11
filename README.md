@@ -6,15 +6,19 @@
 - 기간: 2023. 08.21 ~
 
 ## 2. 목차
-1. [프로젝트 소개](#1-프로젝트-소개)  
+1. [프로젝트 소개](#1-프로젝트-소개)
+2. [목차](#2-목차)
 3. [팀원](#3-팀원)  
 4. [기술 스택](#4-활용-스택)  
 5. [주요 기능](#5-주요-기능)    
 6. [서비스 아키텍처](#6-서비스-아키텍처)   
 7. [데이터 라벨링](#7-데이터-라벨링)   
-10. [Back End](#10-기능-구현---be)  
-11. [주요기능](#11-주요-기능-📦)  
-12. [아키텍처](#12-아키텍쳐)
+8. [YOLOv5 학습 진행](#8-YOLOv5-학습-진행)  
+9. [YOLOv5 모델 결과](#9-YOLOv5-모델-결과)  
+10. [이미지 분류 데이터 전처리](#10-이미지-분류-데이터-전처리)
+11. [이미지 모델 분류 (사용 안함)](#11-이미지-모델-분류-(사용-안함))
+12. [최종 모델 ESRGAN, YOLOv5](#12-최종-모델-ESRGAN,-YOLOv5)
+13. [Flask 제작](#13-Flask-제작)
   
 ## 3. 팀원 
 |<img width="200" alt="image" src="https://avatars.githubusercontent.com/u/129818813?v=4">|<img width="200" alt="image" src="https://avatars.githubusercontent.com/u/98063854?v=4">|<img width="200" alt="image" src="https://avatars.githubusercontent.com/u/70638717?v=4">|<img width="200" alt="image" src="https://avatars.githubusercontent.com/u/86204430?v=4">|
@@ -58,11 +62,7 @@
 ### 번호판 객체 이미지 저장
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/yolo/result1.jpg)
 
-## 10. 이미지 분류 자동화 프로그램 제작
-- 자동 이미지 저장 프로그램 제작
-- 폴더 분류 부터 YOLOv5를 이용한 번호판 객체인식 및 번호판 이미지 저장기능 (Auto_Img_Save.py 참고)
-
-## 11. 이미지 분류 데이터 전처리
+## 10. 이미지 분류 데이터 전처리
 ### 데이터 전처리
 - 이미지 분류 진행 (7월달에 출입한 모든 차량, 64개 class사용)
 - class간 데이터 불균형 발생 (이미지 수가 작은 class에 대해 데이터 증강 적용)
@@ -71,7 +71,7 @@
 
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/classfication/folder.png)
 
-## 12. 이미지 모델 분류 (사용 안함)
+## 11. 이미지 모델 분류 (사용 안함)
 ### 모델 제작
 - VGG16 사용
 - 상세 코드는 GitHub 참조
@@ -84,7 +84,7 @@
 - 새로운 차량이 있을시 새롭게 학습해야함
 - 이미지 수가 적어 Overfiting의 경향이 보임
 
-## 13. ESRGAN, YOLOv5
+## 12. 최종 모델 ESRGAN, YOLOv5
 - ESRGAN을 활용하여 이미지 화질 개선
 - YOLOv5로 번호판의 번호예측
 - EasyOCR, RoboflowOCR 기능을 추가적으로 구현
@@ -92,7 +92,7 @@
 
 <a href="https://sou05091.github.io/MinBeom/pdf/pdf.html">모델 결과 보고서 보러가기
 
-## 14. Flask 제작
+## 13. Flask 제작
 ### AI모델 정리
 - 총 5가지 모델 사용 (YOLOv5, ESRGAN, YOLOv5, EasyOCR, RoboFlowOCR)
 - 3가지 모델(YOLOv5, EasyOCR, RoboFlowOCR) return값 반환 (Json 형식)
