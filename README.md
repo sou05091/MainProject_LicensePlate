@@ -16,7 +16,7 @@
 8. [YOLOv5 학습 진행](#8-YOLOv5-학습-진행)  
 9. [YOLOv5 모델 결과](#9-YOLOv5-모델-결과)  
 10. [이미지 분류 데이터 전처리](#10-이미지-분류-데이터-전처리)
-11. [이미지 모델 분류 (사용 안함)](#11-이미지-모델-분류-(사용-안함))
+11. [이미지 모델 분류 (사용 안함)](#11-이미지-모델-분류)
 12. [최종 모델 ESRGAN, YOLOv5](#12-최종-모델-ESRGAN,-YOLOv5)
 13. [Flask 제작](#13-Flask-제작)
   
@@ -71,8 +71,8 @@
 
 ![image](https://github.com/sou05091/MainProject_LicensePlate/blob/main/img/classfication/folder.png)
 
-## 11. 이미지 모델 분류 (사용 안함)
-### 모델 제작
+## 11. 이미지 모델 분류
+### 모델 제작 (모델 사용 안함)
 - VGG16 사용
 - 상세 코드는 GitHub 참조
 ### 모델 결과
